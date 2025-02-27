@@ -1,0 +1,1495 @@
+/* ================================= kosmetolog - page ====================================== */
+
+/* =================================== kos_nav - blok ======================================= */
+div.page_layout>div.kos_nav {
+  display: flex;
+  gap: 9px;
+  margin-top: 40px;
+}
+
+.kos_nav_button {
+  padding: 10px;
+  background-color: #F2F5F7;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 142%;
+  color: #6B6A6D;
+}
+
+/* =================================== kos_nav - blok ======================================= */
+
+
+.kos_view_all {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  padding-right: 28px;
+  color: #6CBEBE;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.kos_view_all:hover {
+  text-decoration: none;
+}
+
+.kos_view_all::before {
+  content: "";
+  top: 0;
+  right: 0;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  color: #6CBEBE;
+  background: url("../images/kos_img/kos_arrow-right.svg") center / cover no-repeat;
+}
+
+div.kosmetolog_page {
+  width: auto;
+  padding-bottom: 0;
+}
+
+div.kosmetolog_page .page_layout {
+  margin-top: 0;
+}
+
+div.kosmetolog_page-container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.kos_reviews_slider_rev_stars img {
+  max-height: 20px;
+}
+
+/* ========================= bunner ========================== */
+
+.kos_bunner * {
+  padding: 0;
+  margin: 0 0 24px;
+}
+
+.kos_bunner {
+  background: url("../images/kos_img/buner__bg.jpg") center / cover no-repeat;
+  min-height: 500px;
+  padding: 88px 115px 91px;
+}
+
+.kos_bunner_content_box {
+  max-width: 470px;
+}
+
+.kos_bunner_title {
+  text-transform: uppercase;
+}
+
+.kos_cost_box {
+  display: flex;
+  align-items: end;
+}
+
+.kos_discount {
+  margin-bottom: 8px;
+  background-color: #D23979;
+  display: inline-block;
+  padding: 0 8px;
+  border-radius: 60px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.kos_cost_from {
+  margin-right: 16px;
+  margin-bottom: 0;
+  font-size: 22px;
+  color: #D23979;
+  font-weight: 600;
+}
+
+.kos_cost_upto {
+  margin-bottom: 0;
+  text-decoration: line-through;
+  font-size: 20px;
+}
+
+/* ======================= advantages ======================== */
+
+.kos_advantages {
+  border-bottom: 1px solid #F3F3F4;
+  border-top: 1px solid #F3F3F4;
+}
+
+.kos_advantages_box {
+  display: flex;
+  height: 300px;
+}
+
+.kos_advantages_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 30px;
+  border-right: 1px solid #F3F3F4;
+  width: 100%;
+}
+
+.kos_advantages_item:first-child {
+  padding-left: 0;
+}
+
+.kos_advantages_item:last-child {
+  padding-right: 0;
+  border: none;
+}
+
+.kos_advantages_num {
+  font-size: 18px;
+  font-weight: 300;
+  color: #E3E9EE;
+}
+
+.kos_advantages_title {
+  font-size: 22px;
+  color: #1A1A1B;
+  margin-bottom: 14px;
+}
+
+.kos_advantages_text p {
+  padding: 0;
+  font-size: 16px;
+  color: #6B6A6D;
+}
+
+/* ======================= profitable ======================== */
+
+.kos_profitable,
+.kos_one_plus_one {
+  margin: 120px 0;
+}
+
+.kos_profitable_box {
+  background: url("../images/kos_img/kos_profitable_bg.svg") center / cover no-repeat;
+  padding: 48px 85px 65px;
+}
+
+.kos_one_plus_one_box {
+  background: url("../images/kos_img/kos_one_plus_one_bg.svg") center / cover no-repeat;
+  padding: 48px 85px 65px;
+}
+
+.kos_profitable-content_box,
+.kos_one_plus_one-content_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.kos_profitable-title,
+.kos_one_plus_one-title {
+  margin: 0 0 7px;
+  font-size: 34px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.kos_profitable-subtitle,
+.kos_one_plus_one-subtitle {
+  text-align: center;
+  font-size: 21px;
+  font-weight: 300;
+  color: #F2F5F7;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.kos_profitable-service_box {
+  background-color: #fff;
+  margin-right: 30px;
+  padding: 10px;
+  max-width: 640px;
+  min-height: 519px;
+  width: 100%;
+  position: relative;
+}
+
+.kos_profitable-service_box::before {
+  content: "";
+  top: 42.5%;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  background: url("../images/kos_img/kos_white_arrow-right.svg") center no-repeat #6CBEBE;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(75%);
+  z-index: 10;
+}
+
+.kos_profitable-service_name,
+.kos_one_plus_one-service_name {
+  padding: 15px 15px 0;
+  margin-bottom: 12px;
+  color: #1A1A1B;
+  font-size: 23px;
+  position: relative;
+}
+
+.kos_profitable-service_name::before,
+.kos_one_plus_one-service_name::before {
+  content: '';
+  position: absolute;
+  right: 15px;
+  width: 24px;
+  height: 24px;
+  background: url("../images/kos_img/kos_arrow-right.svg") center / cover no-repeat;
+}
+
+.kos_profitable-service_description,
+.kos_one_plus_one-service_description {
+  padding: 0 80px 0 15px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #49474B;
+  line-height: 125%;
+  margin-bottom: 12px;
+}
+
+.kos_profitable-price_box {
+  align-items: center;
+  display: flex;
+  padding: 0 15px;
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.kos_profitable-service_price_upto {
+  color: #1A1A1B7A;
+  text-decoration: line-through;
+}
+
+.kos_profitable-service_price_after {
+  background-color: #D23979;
+  color: #fff;
+  padding: 5px 15px;
+  margin-right: 10px;
+  border-radius: 30px;
+}
+
+.kos_profitable-service_wallpaper {
+  height: 100%;
+  max-width: 620px;
+  max-height: 342px;
+}
+
+.kos_profitable-profit_box,
+.kos_one_plus_one-profit_box {
+  background: url("../images/kos_img/kos_profitable-profit_box_bg.svg") center / cover no-repeat;
+  min-width: 336px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 77px 8px 8px 8px;
+}
+
+.kos_profitable-profit_wrapper,
+.kos_one_plus_one-profit_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kos_profitable-box_profit,
+.kos_one_plus_one-box_profit {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #414042;
+  align-items: center;
+}
+
+.kos_profitable-box_profit p,
+.kos_one_plus_one-box_profit p {
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  padding: 8px 0;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+P.kos_profit-percentage_bottom,
+p.kos_profit_one_plus_one-percentage_bottom {
+  font-size: 28px;
+}
+
+.kos_profit-percentage_top {
+  color: #fff;
+  font-size: 46px;
+}
+
+.kos_profitable-date {
+  color: #fff;
+  font-size: 46px;
+  margin-bottom: 24px;
+}
+
+.kos_profitable-profit_price_box,
+.kos_one_plus_one-profit_price_box {
+  margin-bottom: 24px;
+}
+
+.kos_profitable-profit_price_after,
+.kos_one_plus_one-profit_price_after {
+  color: #fff;
+  font-size: 28px;
+  background-color: #D23979;
+  padding: 4px 14px 6px;
+  border-radius: 50px;
+}
+
+.kos_profitable-profit_price_upto,
+.kos_one_plus_one-profit_price {
+  font-size: 18px;
+  text-decoration: line-through;
+  color: #fff;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.kos_profitable-profit_to,
+.kos_one_plus_one-profit_to {
+  color: #F2F5F7;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.kos_one_plus_one-service_box {
+  min-height: 519px;
+  background-color: #fff;
+  max-width: 340px;
+  margin-right: 30px;
+  padding: 10px;
+  width: 100%;
+  position: relative;
+}
+
+.kos_one_plus_one-service_box::before {
+  content: "";
+  top: 42.5%;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  background: url("../images/kos_img/kos_plus.svg") center no-repeat #6CBEBE;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(75%);
+  z-index: 10;
+}
+
+.kos_one_plus_one-service_box:nth-child(2)::before {
+  background: url("../images/kos_img/kos_res.svg") center no-repeat #6CBEBE;
+}
+
+.kos_one_plus_one-service_wallpaper {
+  height: 100%;
+  max-width: 320px;
+  max-height: 340px;
+}
+
+.kos_one_plus_one-top_text {
+  color: #fff;
+  font-size: 46px;
+  width: 300px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.kos_one_plus_one-service_description {
+  padding: 0 15px;
+}
+
+.kos_one_plus_one-service_price {
+  color: #1A1A1B;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0 15px;
+}
+
+/* ===================== kos_description ===================== */
+
+.kos_description {
+  margin: 120px 0;
+}
+
+.kos_description_txt h2,
+.kos_prices_item h2,
+.kos_examples h2,
+.kos_specialists h2,
+.kos_comfortable_clinic h2,
+.kos_video_about_item h2,
+.kos_reputation h2,
+.kos_reviews_slider_title h2 {
+  text-align: start;
+  margin: 0 0 30px;
+  color: #1A1A1B;
+  font-size: 34px;
+  line-height: 114%;
+}
+
+.kos_description_txt h3 {
+  color: #1A1A1B;
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+.kos_description_txt p {
+  color: #49474B;
+  padding: 0;
+  font-size: 18px;
+}
+
+.kos_description_txt ul {
+  padding: 0;
+}
+
+.kos_description_txt>ul {
+  padding: 0 24px;
+  font-size: 23px;
+  color: #1A1A1B;
+}
+
+.kos_description_txt>ul>li>ul {
+  font-size: 18px;
+  margin: 12px 0;
+  line-height: 150%;
+  color: #49474B;
+}
+
+.kos_description_txt li {
+  list-style-type: none;
+}
+
+.kos_description_txt>ul>li {
+  position: relative;
+}
+
+.kos_description_txt>ul>li::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: -25px;
+  width: 8px;
+  height: 8px;
+  background-color: #6CBEBE;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* ======================== kos_prices ======================= */
+
+.kos_prices {
+  margin: 120px 0;
+}
+
+.kos_prices_item {
+  position: relative;
+}
+
+/* ======================= kos_examples ====================== */
+
+.kos_examples {
+  margin: 120px 0;
+}
+
+.kos_examples_item {
+  position: relative;
+}
+
+div.kos_examples_item>div.white>div#slider_6179>div.owl-nav>button.owl-next,
+div.kos_examples_item>div.white>div#slider_6179>div.owl-nav>button.owl-prev,
+div.kos_specialists_item>div.white>div#slider_5134>div.owl-nav>button.owl-next,
+div.kos_specialists_item>div.white>div#slider_5134>div.owl-nav>button.owl-prev,
+div.kos_comfortable_clinic_item>div.white>div#slider_4812>div.owl-nav>button.owl-next,
+div.kos_comfortable_clinic_item>div.white>div#slider_4812>div.owl-nav>button.owl-prev,
+.kos_clinic_services_slider>#sa_slider_shortcode #slider_9802 div.owl-nav>button.owl-next,
+.kos_clinic_services_slider>#sa_slider_shortcode #slider_9802 div.owl-nav>button.owl-prev,
+.kos_similar_services_slider>#sa_slider_shortcode #slider_9812 div.owl-nav>button.owl-next,
+.kos_similar_services_slider>#sa_slider_shortcode #slider_9812 div.owl-nav>button.owl-prev {
+  background-color: #83c2c2 !important;
+  background-position: center !important;
+  background-size: 8px !important;
+  height: 32px !important;
+  width: 32px !important;
+  border-radius: 50% !important;
+}
+
+div.kos_examples_item>div.white>div#slider_6179>div.owl-nav>button.owl-prev,
+div.kos_specialists_item>div.white>div#slider_5134>div.owl-nav>button.owl-prev,
+div.kos_comfortable_clinic_item>div.white>div#slider_4812>div.owl-nav>button.owl-prev,
+.kos_clinic_services_slider>#sa_slider_shortcode #slider_9802 div.owl-nav>button.owl-prev,
+.kos_similar_services_slider>#sa_slider_shortcode #slider_9812 div.owl-nav>button.owl-prev {
+  left: -45px;
+}
+
+.kos_clinic_services_slider>#sa_slider_shortcode #slider_9802 div.owl-nav>button.owl-prev {
+  left: -48px;
+}
+
+div.kos_examples_item>div.white>div#slider_6179>div.owl-nav>button.owl-next,
+div.kos_specialists_item>div.white>div#slider_5134>div.owl-nav>button.owl-next,
+div.kos_comfortable_clinic_item>div.white>div#slider_4812>div.owl-nav>button.owl-next,
+.kos_clinic_services_slider>#sa_slider_shortcode #slider_9802 div.owl-nav>button.owl-next,
+.kos_similar_services_slider>#sa_slider_shortcode #slider_9812 div.owl-nav>button.owl-next {
+  right: -45px;
+}
+
+.kos_clinic_services_slider>#sa_slider_shortcode #slider_9802 div.owl-nav>button.owl-next {
+  right: -48px;
+}
+
+div.kos_examples_item>div.white>div#slider_6179>div.owl-dots,
+div.kos_specialists_item>div.white>div#slider_5134>div.owl-dots,
+div.kos_comfortable_clinic_item>div.white>div#slider_4812>div.owl-dots,
+.kos_clinic_services_slider>#sa_slider_shortcode #slider_9802 div.owl-dots,
+.kos_similar_services_slider>#sa_slider_shortcode #slider_9812 div.owl-dots {
+  display: none !important;
+}
+
+/* ===================== kos_specialists ===================== */
+.kos_specialists {
+  margin: 120px 0;
+}
+
+.kos_specialists_item {
+  position: relative;
+}
+
+.kos_specialists h2 {
+  max-width: 850px;
+}
+
+/* ================= kos_comfortable_clinic ================== */
+.kos_comfortable_clinic {
+  padding: 60px 0 120px;
+  background-color: #E3E9EE;
+}
+
+.kos_comfortable_clinic h2,
+.kos_video_about_item h2 {
+  text-align: center;
+}
+
+/* ================= kos_video_about_clinic ================== */
+.kos_video_about {
+  margin: 120px 0;
+}
+
+/* ================= kos_reputation_clinic =================== */
+.kos_reputation {
+  margin: 120px 0;
+  height: 593px;
+}
+
+.kos_reputation_content h2 {
+  text-transform: uppercase;
+  margin-bottom: 45px;
+}
+
+.kos_reputation_text {
+  padding-left: 73px;
+  position: relative;
+  margin-bottom: 95px;
+}
+
+.kos_reputation_text::after {
+  content: "";
+  position: absolute;
+  width: 43px;
+  height: 34px;
+  top: 0;
+  left: 0;
+  background: url("../images/kos_img/kos_reputation_quote.svg") center no-repeat;
+}
+
+.kos_reputation_quote p {
+  padding: 0;
+  margin-bottom: 10px;
+  line-height: 143%;
+  font-size: 18px;
+  color: #1A1A1B;
+  font-weight: 300;
+}
+
+.kos_reputation_author {
+  padding: 0;
+  font-weight: 300;
+  font-size: 16px;
+  color: #6B6A6D;
+  overflow: hidden;
+}
+
+.kos_reputation_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 550px;
+}
+
+.kos_reputation_ratings>.reiting h2 {
+  display: none;
+}
+
+.kos_reputation_ratings {
+  height: 100%;
+}
+
+.kos_reputation_ratings>.reiting {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2px;
+  border: 1px solid #F2F5F7;
+  height: 100%;
+}
+
+.kos_reputation_ratings>.reiting>.stars_holder:nth-child(3),
+.kos_reputation_ratings>.reiting>.stars_holder:nth-child(4) {
+  background-color: #E3E9EE;
+}
+
+.kos_reputation_ratings>.reiting>.stars_holder {
+  width: 100%;
+  padding: 17px 0 0;
+}
+
+.kos_reputation_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.kos_reputation_slider {
+  max-width: 328px;
+  max-height: 494px;
+  margin-top: 60px;
+}
+
+div.kos_reputation_slider_container img {
+  height: 465px !important;
+}
+
+div.kos_reputation_slider_container {
+  height: 593px !important;
+  max-width: 570px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #464646;
+  background: url("../images/kos_img/kos_reputation_slider_bg.svg") center no-repeat #464646 !important;
+}
+
+
+div.kos_reputation_slider>div.white>div#slider_6182>div.owl-stage-outer {
+  max-height: 494px;
+}
+
+div.kos_reputation_slider>div.white>div#slider_6182>div.owl-stage-outer>div.owl-stage>div.owl-item {
+  height: 473px !important;
+  width: 328px !important;
+}
+
+
+div.kos_reputation_slider>div.white>div#slider_6182>div.owl-nav>button.owl-next,
+div.kos_reputation_slider>div.white>div#slider_6182>div.owl-nav>button.owl-prev {
+  height: 32px !important;
+  width: 32px !important;
+  border-radius: 50% !important;
+}
+
+div.kos_reputation_slider>div.white>div#slider_6182>div.owl-nav>button.owl-next {
+  background: url("../images/kos_img/kos_chevron-right.svg") center no-repeat #fff !important;
+  right: -35px;
+}
+
+div.kos_reputation_slider>div.white>div#slider_6182>div.owl-nav>button.owl-prev {
+  background: url("../images/kos_img/kos_chevron-left.svg") center no-repeat #fff !important;
+  left: -35px;
+}
+
+div.kos_reputation_slider>div.white>div#slider_6182>div.owl-dots {
+  display: none !important;
+}
+
+div.kos_reputation_slider>div.white>div#slider_6182 img.lazy-loaded {
+  border-radius: 10px;
+}
+
+/* ================= kos_leprosy_contraindications =================== */
+
+.kos_leprosy_contraindications {
+  margin-top: 120px;
+  margin-bottom: 54px;
+}
+
+.kos_leprosy_contraindications_box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 54px;
+}
+
+.kos_leprosy_contraindications_box>div {
+  width: 100%;
+}
+
+.kos_leprosy_contraindications_box h3,
+.kos_effect_title {
+  color: #1A1A1B;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.kos_leprosy_contraindications_box ul {
+  padding-left: 39px;
+}
+
+.kos_leprosy_contraindications_box li {
+  list-style-type: none;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #49474B;
+  position: relative;
+}
+
+.kos_leprosy_contraindications_box li:last-child {
+  margin-bottom: 0;
+}
+
+.kos_leprosy>li::after,
+.kos_contraindications>li::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  top: 50%;
+  left: -39px;
+  position: absolute;
+  border-radius: 50%;
+  transform: translate(0, -50%);
+}
+
+.kos_leprosy>li::after {
+  background: url("../images/kos_img/kos_check.svg") center / 14px #6CBEBE no-repeat;
+}
+
+.kos_contraindications>li::after {
+  background: url("../images/kos_img/kos_list_plus.svg") center / 16px #B05056 no-repeat;
+}
+
+.kos_leprosy_contraindications_txt {
+  font-size: 18px;
+  font-weight: 300;
+  color: #49474B;
+}
+
+.kos_leprosy_contraindications_txt p,
+.kos_effect_description p {
+  padding: 0;
+  margin-bottom: 20px;
+  line-height: 142%;
+  font-size: 18px;
+}
+
+/* ========================= kos_effects ============================= */
+
+.kos_effects {
+  margin-top: 54px;
+  margin-bottom: 120px;
+}
+
+.kos_effects_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 54px;
+}
+
+.kos_effects_wallpaper {
+  height: 462px;
+  grid-row: 1 / 3;
+  grid-column: 2 / 3;
+}
+
+.kos_effects_item {
+  padding-left: 50px;
+  position: relative;
+}
+
+.kos_effects_item::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: url("../images/kos_img/kos_effects_star.svg") center no-repeat;
+}
+
+.kos_effect_title {
+  margin-bottom: 16px;
+}
+
+/* ==================== kos_motivation_block ========================= */
+
+.kos_motivation_block {
+  max-height: 883px;
+  width: 100%;
+  margin-top: 223px;
+  margin-bottom: 120px;
+}
+
+.kos_motivation_block_box {
+  background: url("../images/kos_img/kos_motivation_bg.svg") center no-repeat;
+  min-height: 883px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.kos_motivation_content_wrapper {
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kos_motivation_img {
+  width: 570px;
+  height: 530px;
+  background: url("../images/kos_img/kos_motivation_img.jpg") center / contain no-repeat;
+  margin-top: -103px;
+}
+
+.kos_motivation_title {
+  font-size: 60px;
+  margin: -20px 0 24px;
+  text-transform: uppercase;
+  color: #1A1A1B;
+  line-height: 94%;
+}
+
+.kos_motivation_title span {
+  color: #6CBEBE;
+}
+
+.kos_motivation_text {
+  font-size: 16px;
+  font-weight: 300;
+  color: #49474B;
+  line-height: 142%;
+  margin-bottom: 24px;
+  width: 470px;
+}
+
+/* ===================== kos_clinic_services ========================= */
+.kos_clinic_services {
+  margin: 120px 0;
+}
+
+.kos_clinic_services-container {
+  min-height: 660px;
+}
+
+.kos_clinic_services {
+  background: linear-gradient(0deg, #2A282B 38%, #414042 0);
+}
+
+.kos_clinic_services_box {
+  padding-top: 120px;
+}
+
+.kos_clinic_services_title {
+  color: #fff;
+  font-size: 34px;
+  line-height: 114%;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.kos_clinic_services_slider>#sa_slider_shortcode #slider_9802 .owl-item .sa_hover_container {
+  border: 1px solid #84848433;
+  margin: 8px 15px !important;
+  position: relative;
+}
+
+.kos_clinic_services_slider>#sa_slider_shortcode #slider_9802 .owl-dots {
+  display: none !important;
+}
+
+.kos_clinic_services_slider>#sa_slider_shortcode #slider_9802 p {
+  text-align: center;
+  padding: 0;
+  margin: -8px -8px 0;
+  z-index: -10;
+  position: relative;
+}
+
+.kos_clinic_services_slider>#sa_slider_shortcode #slider_9802 p:last-child {
+  padding-top: 20px;
+  font-size: 23px;
+  line-height: 114%;
+  color: #fff;
+  width: 155px;
+  margin: 0 auto;
+}
+
+.kos_clinic_services_slider>#sa_slider_shortcode #slider_9802 p img {
+  max-width: 218px;
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+}
+
+/* ==================== kos_similar_services ========================= */
+
+.kos_similar_services {
+  background-color: #2A282B;
+  min-height: 705px;
+  height: 100%;
+  padding-top: 120px;
+}
+
+.kos_similar_services_title {
+  text-align: center;
+  font-size: 34px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+#slider_9812 div.owl-item>div.sa_hover_container p {
+  padding: 0;
+}
+
+#slider_9812 div.owl-item>div.sa_hover_container p:nth-child(2) {
+  overflow: hidden;
+}
+
+#slider_9812 div.owl-item>div.sa_hover_container p:last-child {
+  font-size: 23px;
+  line-height: 114%;
+  padding-right: 30px;
+  position: relative;
+  color: #fff;
+  margin-top: 24px;
+}
+
+#slider_9812 div.owl-item>div.sa_hover_container p:last-child::before {
+  content: "";
+  top: 0;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  background: url("../images/kos_img/kos_arrow-right.svg") center / cover no-repeat;
+}
+
+#slider_9812 div.owl-item>div.sa_hover_container p img {
+  object-fit: cover;
+  max-width: 270px;
+  height: 320px;
+}
+
+#slider_9812 div.owl-item>div.sa_hover_container>div.sa_hover_fullslide {
+  opacity: 0;
+}
+
+/* ==================== kos_make_appointment ========================= */
+.kos_make_appointment {
+  margin: 140px 0;
+  position: relative;
+}
+
+.kos_make_appointment_box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 102%;
+  width: 250%;
+  height: 100%;
+  background-color: #6CBEBE;
+}
+
+.kos_make_appointment_box {
+  display: flex;
+  justify-content: space-between;
+  min-height: 308px;
+  position: relative;
+  padding-left: 220px;
+}
+
+.kos_make_appointment_img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -20px;
+}
+
+.kos_make_appointment_img img {
+  width: 180px;
+  height: 270px;
+  object-fit: cover;
+  margin-left: 10px;
+}
+
+.kos_make_appointment_wrapper {
+  background-color: #2A282B;
+  border-bottom: 20px solid #6CBEBE;
+  overflow: hidden;
+}
+
+.kos_make_appointment_content {
+  max-width: 310px;
+}
+
+.kos_make_appointment_title {
+  font-size: 34px;
+  color: #fff;
+  line-height: 114%;
+  margin-bottom: 12px;
+  margin-top: 50px;
+  text-transform: uppercase;
+  text-align: start;
+}
+
+.kos_make_appointment_text {
+  font-size: 16px;
+  font-weight: 300;
+  color: #DAD9D9;
+  line-height: 142%;
+}
+
+.kos_make_appointment_form {
+  width: 600px;
+  padding-top: 65px;
+  padding-right: 20px;
+}
+
+.kos_make_appointment_form form.wpcf7-form {
+  width: auto;
+  margin: 0;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  grid-gap: 15px;
+}
+
+.kos_make_appointment_form form.wpcf7-form p {
+  padding: 0;
+}
+
+.kos_make_appointment_form form.wpcf7-form p:nth-child(2) {
+  display: grid;
+  grid-column: 1/3;
+  grid-template-columns: 1fr auto 1fr;
+  grid-gap: 7px;
+}
+
+.kos_make_appointment_form form.wpcf7-form p:nth-child(2) label {
+  color: #AAA8AB;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.kos_make_appointment_form form.wpcf7-form p:nth-child(2) input {
+  margin: 0;
+  background-color: transparent;
+  border: 1px solid #433f3e;
+  color: #fff;
+}
+
+.kos_make_appointment_form form.wpcf7-form p:nth-child(3) {
+  color: #F2F5F7C2;
+  font-size: 12px;
+  padding: 10px 10px 0 10px;
+  line-height: 130%;
+}
+
+.kos_make_appointment_form form.wpcf7-form p:nth-child(3) a {
+  color: #F2F5F7C2;
+  font-size: 12px;
+}
+
+.kos_make_appointment_form form.wpcf7-form>.wpcf7-response-output {
+  color: #fff;
+  grid-column: 1/3;
+  margin-top: -15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* ===================== kos_question_answer ========================= */
+
+.kos_question_answer {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.kos_question_answer_title {
+  color: #1A1A1B;
+  font-size: 34px;
+  line-height: 114%;
+  text-transform: uppercase;
+  text-align: start;
+  margin: 0 0 12px;
+}
+
+.kos_question_answer_count_post {
+  font-size: 16px;
+  font-weight: 300;
+  color: #AAA8AB;
+}
+
+.kos_question_answer p {
+  padding: 0;
+}
+
+.kos_question_answer_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.kos_question_answer_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 370px;
+}
+
+.kos_question_answer-btn_box {
+  max-width: 319px;
+}
+
+.kos_question_answer_btn {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+div.kos_question_answer-btn_box>a.kos_question_answer_btn-watch {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  background: #fff;
+  color: #83C2C2;
+  text-decoration: none;
+}
+
+.kos_question_answer_btn:last-child {
+  margin-bottom: 0;
+}
+
+.kos_question_answer_question {
+  max-width: 770px;
+  width: 100%;
+  height: 100%;
+}
+
+.kos_question_blok {
+  padding: 24px 0;
+  border-top: 1px solid #f3f3f3;
+}
+
+.kos_question_blok:last-child {
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.kos_question_head {
+  display: flex;
+  justify-content: space-between;
+  color: #AAA8AB;
+  font-size: 14px;
+  line-height: 142%;
+  font-weight: 300;
+  margin-bottom: 12px;
+}
+
+.kos_question_head-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+
+.kos_question_body-info_name strong {
+  text-decoration: underline;
+}
+
+.kos_question_head-info span,
+.kos_question_body-info_name_experience_box span,
+.kos_reviews_slider_info_box span {
+  width: 4px;
+  height: 4px;
+  background-color: #6CBEBE;
+  border-radius: 50%;
+}
+
+.kos_question_head-spec a {
+  color: #AAA8AB;
+  font-size: 14px;
+  line-height: 142%;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+.kos_question_body-quest {
+  padding-left: 38px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.kos_question_body-quest::after {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  left: 0;
+  background: url("../images/kos_img/kos_question_img.svg") center / cover no-repeat;
+}
+
+.kos_question_body-quest p {
+  color: #1A1A1B;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.kos_question_body-doc_info {
+  display: flex;
+  gap: 16px;
+}
+
+.kos_question_body_bottom_box {
+  padding-left: 20px;
+  position: relative;
+  border-left: 20px solid #F2F5F7;
+}
+
+.kos_question_body_bottom_box::after {
+  content: "ОТВЕТ";
+  position: absolute;
+  top: 2px;
+  left: -19px;
+  transform: rotate(-90deg) translate(-50%, -50%);
+  font-size: 10px;
+  color: #6CBEBE;
+}
+
+.kos_question_body-info_content {
+  line-height: 142%;
+}
+
+.kos_question_body-answer p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #1A1A1B;
+}
+
+.kos_question_body-foto img {
+  width: 72px;
+  height: 72px;
+}
+
+.kos_question_body-info_name_experience_box {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.kos_question_body-info_spec {
+  margin-bottom: 7px;
+}
+
+.kos_question_body-date {
+  font-size: 14px;
+  color: #AAA8AB;
+}
+
+/* ===================== kos_reviews_slider ========================= */
+.kos_reviews_slider {
+  background-color: #E3E9EE;
+}
+
+.kos_reviews_slider_title_box {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.kos_reviews_slider_title {
+  margin: 0;
+  text-align: start;
+  text-transform: uppercase;
+}
+
+.slick-arrow {
+  background-position: center !important;
+  background-size: 8px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+
+.slick-arrow::before {
+  display: none;
+}
+
+.slick-next,
+.slick-next:hover,
+.slick-next:focus {
+  background: #83c2c2 url('../images/kos_img/kos_chevron_white-right.svg') no-repeat center center;
+  right: -45px;
+}
+
+.slick-prev,
+.slick-prev:hover,
+.slick-prev:focus {
+  left: -45px;
+  background: #83c2c2 url('../images/kos_img/kos_chevron_white_left.svg') no-repeat center center;
+}
+
+.kos_reviews_slider {
+  padding: 120px 0 60px;
+}
+
+.kos_reviews_slider__inner {
+  position: relative;
+  margin: 0 -15px;
+}
+
+.kos_reviews_slider_info_doc_name a,
+.kos_reviews_slider_rev_spec a {
+  position: relative;
+  z-index: 99;
+}
+
+ul.kos_reviews__slider-line {
+  padding: 0;
+}
+
+li.kos_reviews__slider-item {
+  background-color: #fff;
+  padding: 25px;
+  position: relative;
+  /* margin: 0 30px; */
+  min-height: 370px;
+  height: 100%;
+  border-left: 15px solid #E3E9EE;
+  border-right: 15px solid #E3E9EE;
+}
+
+.kos_reviews_slider_box {
+  margin: 0 -15px;
+}
+
+.kos_reviews_slider_foto {
+  width: 108px;
+  height: 108px;
+  background-color: #ccc;
+}
+
+.kos_reviews_slider_foto img {
+  width: 108px;
+  height: 108px;
+  object-fit: cover;
+}
+
+.kos_reviews_slider_info {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.kos_reviews_slider_info_content {
+  width: 100%;
+}
+
+.kos_reviews_slider_info_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kos_reviews_slider_info_box {
+  font-size: 14px;
+  color: #AAA8AB;
+  font-weight: 300;
+  line-height: 142%;
+}
+
+.kos_reviews_slider_info_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.kos_reviews_slider_info_user_name {
+  font-size: 23px;
+  line-height: 114%;
+  color: #0A0A0A;
+  margin-bottom: 10px;
+  letter-spacing: -0.2px;
+}
+
+.kos_reviews_slider_info_doc_name {
+  margin-bottom: 2px;
+}
+
+.kos_reviews_slider_info_doc_name a,
+.kos_reviews_slider_rev_spec a {
+  color: #6CBEBE;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 142%;
+}
+
+.kos_reviews_slider_info_doc_name,
+.kos_reviews_slider_rev_spec {
+  font-size: 16px;
+  color: #AAA8AB;
+  font-weight: 300;
+  line-height: 142%;
+}
+
+.kos_reviews_slider_rev_txt {
+  font-display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.kos_reviews_slider_rev_txt div:first-child {
+  font-size: 16px;
+  font-weight: 300;
+  color: #414042;
+  line-height: 142%;
+  margin-bottom: 8px;
+}
+
+a.kos_reviews_slider_revitem_all,
+button.kos_reviews_slider_revitem_all {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6CBEBE;
+  line-height: 142%;
+  text-decoration: none;
+  margin: 0;
+}
+
+/* ================================= kosmetolog - page ====================================== */
